@@ -8,3 +8,8 @@ I used to predict who is ill on the val date
 - SVC
 - LinearSVC
 - VotingClassifier
+
+
+## The best score have VotingClf
+
+Where ROC AUC score is 0.704
