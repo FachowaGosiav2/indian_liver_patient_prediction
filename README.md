@@ -2,7 +2,7 @@
 
 In this project i try to predict who have ill liver
 
-I used to predict who is ill on the val date 
+I used to predict who is ill on the val data 
 - RandomForestClassifier
 - DecisionTreeClassifier
 - SVC
@@ -13,3 +13,6 @@ I used to predict who is ill on the val date
 ## The best score have VotingClf
 
 Where ROC AUC score is 0.704
+
+## You can find this data set on 
+https://www.kaggle.com/datasets/uciml/indian-liver-patient-records
