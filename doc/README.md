@@ -29,3 +29,22 @@ model_clf: Machine learning model object that implements the sklearn API, such a
 Dependencies:
 
 This function requires the following modules from the scikit-learn library: accuracy_score, recall_score, f1_score, and roc_auc_score.
+
+## Function Name: fit_and_score_model()
+
+### Description:
+This function fits a given machine learning model to the training data (X, y) and calculates the model's score (e.g., accuracy, R-squared, etc.) on the validation data (X_v, y_v). The score is returned as the output of the function.
+
+### Parameters:
+
+X: Input features (training data) of shape (n_samples, n_features).
+y: Target variable (training labels) of shape (n_samples,).
+model_clf: Machine learning model object that implements the sklearn API, such as a classifier or regressor.
+X_v: Input features (validation data) of shape (n_samples_v, n_features).
+y_v: Target variable (validation labels) of shape (n_samples_v,).
+### Returns:
+
+model_clf.score(X_v, y_v): The score of the trained model on the validation data (X_v, y_v).
+Dependencies:
+
+This function requires the 'fit' and 'score' methods from the machine learning model object, as well as any relevant modules or libraries imported for the model.

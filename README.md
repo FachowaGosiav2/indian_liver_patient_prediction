@@ -12,7 +12,7 @@ I used to predict who is ill on the val data
 
 ## The best score have VotingClf
 
-Where ROC AUC score is 0.70 and score on val. data is 0.71
+Where ROC AUC score is 0.70 and score on val. data is 0.78
 
 ## You can find this data set on 
 https://www.kaggle.com/datasets/uciml/indian-liver-patient-records
